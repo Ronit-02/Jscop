@@ -15,7 +15,7 @@ function Footer() {
                 <div className="footer-content-left-socials">
                     <br />
                     <p>
-                        Connect with us on :
+                        Connect with us on:
                     </p>
                     <ul className="footer-socials">
                         <li><a href="https://www.facebook.com/jiitopticachapter"> <FaFacebook size = "1.5rem" /> </a></li>
