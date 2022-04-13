@@ -32,8 +32,20 @@
     margin-bottom:105px;
 }
 
+.section-subhead-team {
+  font-size: 1rem;
+  font-weight: 1000;
+  letter-spacing: 0.4em;
+  line-height: 2.6;
+  margin-bottom: -10px;
+  text-transform: uppercase;
+  transform: skewY(-11.5deg);
+  -webkit-transform: skewY(-11.5deg);
+  color: #00d69d;
+}
+
 .Team .profile-box {
-  background: #FFFFFF;
+  background: #212121;
   box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
   border-radius: 3px;
   margin: 16px 16px;
@@ -60,18 +72,18 @@
 
 
 .Team h3 {
-  font-weight: 1000;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 20px;
   margin-bottom: 0;
-  color: #00b69d;
+  color: white;
 }
 
 .Team h4 {
   transition: 500ms;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 8px;
-  color: #00b69d;
+  color: rgb(71, 244, 250);
   cursor: pointer;
 }
 
