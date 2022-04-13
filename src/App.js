@@ -11,6 +11,7 @@ import Sponsors from "./Components/Sponsors/Sponsors";
 import Team from "./Components/Team/Team";
 import Timeline from "./Components/Timeline/Timeline";
 import Home from "./Components/Home/Home";
+import Registration from "./Components/Registration/Registration";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path='#Team' exact component={Team} />
           <Route path='/Gallery' exact> <Gallery /> </Route>
           <Route path='#contactus' exact component={Footer} />
+          <Route path='/register' exact component={Registration} />
         </Switch>
       </Router>
     </div>
