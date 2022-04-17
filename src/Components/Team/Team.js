@@ -7,7 +7,7 @@ function Team() {
       <section type="grid">
         <header className="grid-header in-view" in-view="fade-up">
           <div className="center u-clearfix">
-            <p className="section-subhead">
+            <p className="section-subhead-team">
               <span>Meet &amp; Greet</span>
             </p>
             <h2 className="section-title">the Organising <br/> team</h2>

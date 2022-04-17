@@ -42,7 +42,7 @@ button.mv2 {
    background: none;
    color: #35e5fd;
    font-size: 18px;
-   font-weight: git status00;
+   font-weight: 650;
    border: 2px solid #35e5fd;
    margin-top: -21%; 
    margin-left: -75px;
@@ -60,6 +60,23 @@ button.mv2 {
   background-size: 400%;
   transition: background 300ms ease-in-out;
 }
+
+.mv2 .tool-tip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 100;
+}
+
+.mv2:hover .tooltiptext {
+    visibility: visible;
+}
+
 .mv2:hover {
   background-position: 0;
 } 
@@ -233,12 +250,12 @@ button.mv2 {
    
 
 }
-#pulse:hover,
+/* #pulse:hover,
 #pulse:focus {
   -webkit-animation: pulse 1s;
           animation: pulse 1s;
   box-shadow: 0 0 0 2em transparent;
-}
+} */
 
 @-webkit-keyframes pulse {
   0% {
