@@ -16,8 +16,8 @@ function About() {
                 </div> 
             </header>
         </section>
-        <section>
-            <div className="center">
+        <section id="about-section">
+            <div id="about-section-div1" className="center">
                 <p
                     >In the last few years, we have come to terms with the fact that
                     there can be nothing in real life which isn't possible and there
@@ -30,6 +30,12 @@ function About() {
                     With this hope and motto in our thoughts,
                     JIIT OPTICA STUDENT CHAPTER 
                 </p> 
+                <button id="about-section-btn">
+                    Interested
+                </button>
+            </div>
+            <div id="about-section-div2">
+                <img src="ayush.jfif" alt="profile-pic"/>
             </div>
         </section>
     </div>
