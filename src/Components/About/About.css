@@ -227,8 +227,187 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 @media (min-width: 46.25em)
 { section[type=whats-new] .section-title span {
     margin-left: 130px;
     font-size: 6.0625rem;
 }}
+
+#about-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2% 7%;
+    padding: 2%;
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+
+#about-section-div1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    color: white;
+    margin-bottom: 0;
+    /* border: 2px solid red; */
+}
+
+#about-section-div1 p {
+    padding: 2%;
+    font-size: 1.1rem;
+}
+
+#about-section-btn {
+    display: block;
+    background: none;
+    color: #198afa;
+    font-size: 18px;
+    font-weight: 650;
+    border: 2px solid white;
+    margin-top: 15px;
+    border-radius: 40px;
+    height: 50px;
+    width: 150px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    cursor: pointer;
+    color: #fff;
+    background-image: linear-gradient(45deg, #198afa 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+}
+
+#about-section-btn:hover {
+    background-position: 0;
+    border: 2px solid #198afa;
+}
+
+#about-section-div2 {
+
+    display: flex;
+    align-items: center;
+    color: white;
+    /* border: 2px solid blue; */
+}
+
+#about-section-div2 img {
+    width: 350px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1100px) {
+    #about-section {
+        margin: 2%;
+    }
+
+    #about-section-div1 p {
+        font-size: 0.98rem;
+        padding: 0px;
+    }
+
+    #about-section-div2 img {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    #about-section {
+        margin: 10%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    #about-section-div2 img {
+        width: 400px;
+    }
+}
+
+#about-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4%;
+    margin: 2% 10%;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 0% 5%;
+    height: 350px;
+
+    /* border: 2px solid red; */
+}
+
+#card {
+    position: relative;
+    margin: 5% 0%;
+    padding: 8%;
+    /* padding-right: 9%; */
+    width: 100%;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+#card h1{
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+#card p {
+    display: block;
+    margin-top: 30px;
+    width: 80%;
+    position: absolute;
+    top: 120px;
+    font-size: 0.8rem;
+}
+
+#card a {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#card-icon {
+    margin-top: -30px;
+    margin-left: -10px;
+}
+
+#card:hover {
+    background-color: #198afa;
+    border: none;
+}
+
+/* @media only screen and (max-width: 1200px) {
+    
+} */
+
+@media only screen and (max-width: 990px) {
+    #about-cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        height: 700px
+    }
+    #card {
+        margin: auto;
+        height: 300px;  
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    #about-cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        height: 1400px;
+    }
+    #card {
+        padding: 3%;
+    }
+}

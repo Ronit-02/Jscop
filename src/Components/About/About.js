@@ -1,6 +1,12 @@
 import React from "react";
-
 import "./About.css";
+
+// Importing Icons from React
+import {IoRocketOutline} from "react-icons/io5";
+import {FiMic} from "react-icons/fi";
+import {GoBroadcast} from "react-icons/go";
+import {GiAlarmClock} from "react-icons/gi";
+
 
 function About() {
   return (
@@ -16,8 +22,8 @@ function About() {
                 </div> 
             </header>
         </section>
-        <section>
-            <div className="center">
+        <section id="about-section">
+            <div id="about-section-div1" className="center">
                 <p
                     >In the last few years, we have come to terms with the fact that
                     there can be nothing in real life which isn't possible and there
@@ -30,6 +36,38 @@ function About() {
                     With this hope and motto in our thoughts,
                     JIIT OPTICA STUDENT CHAPTER 
                 </p> 
+                <button id="about-section-btn">
+                    Know More
+                </button>
+            </div>
+            <div id="about-section-div2">
+                <img src="ayush.jfif" alt="profile-pic"/>
+            </div>
+        </section>
+        <section id="about-cards">
+            <div id="card">
+                <FiMic size = "4rem" id="card-icon"/>
+                <h1>Speakers</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante</p>
+                <a href="#"> Read More</a>
+            </div>
+            <div id="card">
+                <IoRocketOutline size = "4rem" id="card-icon"/>
+                <h1>8 Hrs Marathon</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante</p>
+                <a href="#"> Read More</a>
+            </div>
+            <div id="card">
+                <GoBroadcast size = "4rem" id="card-icon"/>
+                <h1>Live Broadcast</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante</p>
+                <a href="#"> Read More</a>
+            </div>
+            <div id="card">
+                <GiAlarmClock size = "4.5rem" id="card-icon"/>
+                <h1>Early Bird</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante</p>
+                <a href="#"> Read More</a>
             </div>
         </section>
     </div>

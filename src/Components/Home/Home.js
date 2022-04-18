@@ -45,7 +45,7 @@ function Home() {
         {/* <h3 classNameName='Home__Heading'> JSCOP</h3>
             <button classNameName="mv" onclick="parent.location='http://opencon.ieeevit.org/register.html'">Register Now</button> */}
       </div>
-      {/* <About /> */}
+      <About />
 
       <Speakers />
       {/* <Events/> */}
