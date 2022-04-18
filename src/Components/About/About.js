@@ -41,7 +41,7 @@ function About() {
                 </button>
             </div>
             <div id="about-section-div2">
-                <img src="ayush.jfif" alt="profile-pic"/>
+                <img src="JSCOP_profile_pic_2.JPG" alt="profile-pic"/>
             </div>
         </section>
         <section id="about-cards">
