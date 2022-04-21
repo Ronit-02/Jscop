@@ -22,9 +22,10 @@
   align-items: center;
   padding: 32px 0;
   overflow: hidden;
-  height:120px;
+  height:160px;
   will-change: transform;
   white-space: nowrap;
+  margin:15px;
 }
 .scrollbox--primary {
   
@@ -32,7 +33,7 @@
  
 }
 .scrollbox img{
-    height:200px;
+    height:auto;
 }
 .scrollbox--secondary {
   /* background-color: #2f722f; */
@@ -51,7 +52,7 @@
   width: 25%;
   max-width: 25%;
   font-size: 1.5rem;
-  margin-right:15px;
+  margin-right:75px;
   transform: translateX(-100%);
   -webkit-animation: marquee 20.5s linear infinite;
           animation: marquee2 20.5s linear infinite;

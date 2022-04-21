@@ -1,6 +1,12 @@
 import React from "react";
-
 import "./About.css";
+
+// Importing Icons from React
+import {IoRocketOutline} from "react-icons/io5";
+import {FiMic} from "react-icons/fi";
+import {GoBroadcast} from "react-icons/go";
+import {GiAlarmClock} from "react-icons/gi";
+
 
 function About() {
   return (
@@ -16,22 +22,17 @@ function About() {
                 </div> 
             </header>
         </section>
-        <section>
-            <div className="center">
+        <section id="about-section">
+            <div id="about-section-div1" className="center">
                 <p
-                    >In the last few years, we have come to terms with the fact that
-                    there can be nothing in real life which isn't possible and there
-                    is nothing which we can Ctrl+ delete from the existence of our
-                    history. Good, bad, endearing - all sorts of memories within our
-                    heart, we always tend to look forward to what is yet to come with
-                    infinite dreams and aspirations along with a ray of hope to go
-                    beyond the knowns and unknowns and discover new
-                    forms with our creative and curious minds.
-                    With this hope and motto in our thoughts,
-                    JIIT OPTICA STUDENT CHAPTER 
+                    >JIIT Student Conference on Optics and Photonics 2022, or JSCOP 4.0 is the annual flagship event of JIIT-OPTICA Student Chapter. It will be conducted from 7th-8th May on the premises of Jaypee Institute of Information Technology, NOIDA with great passion and enthusiasm. The fest will include a plethora of events and interactive webinars ranging from fields of science and tech to entrepreneurship and general Trivia and hence this year’s theme is aptly coined as ‘Multiverse’. The team spirit and dedication of all students working together has led to successful JSCOPs over the years and with your active participation we wish to make JSCOP 4.0 equally if not more special.
                 </p> 
             </div>
+            <div id="about-section-div2">
+                <img src="2019-8.jpeg" alt="about"/>
+            </div>
         </section>
+       
     </div>
   );
 }

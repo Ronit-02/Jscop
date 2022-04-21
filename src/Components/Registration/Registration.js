@@ -7,16 +7,16 @@ function Registration() {
       <div className="benefit">
       <h2 className='benifit-text'>Benefits</h2>
       <ul>
-        <li>Lunch +Tea for 2 days</li>
-        <li>Exclusive access to all events and lectures</li>
+        <li>Refreshments</li>
+        <li>Talks from renowned speakers across the globe</li>
         <li>Best selling stock market course worth INR 999</li>
-        <li>Goodies and swags for every participant</li>
+        <li>Exclusive access to all the events and competitions</li>
+        <li>Goodies, swags and much more</li>
+        <li>Participation Certificate for all</li>
       </ul>
 
       </div>
       <div className="blink">
-       <div className="first"><h3>Get your Exclusive pass in only <strike>199</strike> 149 only</h3></div>
-      <div className="second"><h3>*Early bird discount for first 75 Registrations</h3></div> 
       <button className='btn-primary'><a href="https://bit.ly/JSCOP4-REG"> AVAIL YOUR PASS </a></button>
       </div>
     </div>
