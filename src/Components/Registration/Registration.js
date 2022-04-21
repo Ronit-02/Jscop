@@ -17,7 +17,7 @@ function Registration() {
       <div className="blink">
        <div className="first"><h3>Get your Exclusive pass in only <strike>199</strike> 149 only</h3></div>
       <div className="second"><h3>*Early bird discount for first 75 Registrations</h3></div> 
-      <button className='btn-primary'>AVAIL YOUR PASS</button>
+      <button className='btn-primary'><a href="https://bit.ly/JSCOP4-REG"> AVAIL YOUR PASS </a></button>
       </div>
     </div>
   )
