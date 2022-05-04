@@ -49,7 +49,7 @@ function Home() {
 
       <Speakers />
       <Events/>
-      <Timeline />
+      {/*<Timeline />*/}
 
       <Team />
       <Faq />
