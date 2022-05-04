@@ -5,7 +5,6 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
-import WorkIcon from "@mui/icons-material/Work";
 import './Timeline.css'
 // import StarIcon from '@mui/icons-material/Star';
 
@@ -32,97 +31,108 @@ function Timeline() {
                     </h2>
                 </div>
   </header> */}
+  <h2 className="section-title">
+              <br/>
+             Day - 1<br />
+             
+            </h2>
+  
 
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2011 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
+          date="Time: 10:00-10:45"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <h3 className="vertical-timeline-element-title">Inauguration</h3>
+          <p>Venue: Auditorium</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Time: 11:15-12:00"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Talk-1</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+           By Prof. Rupamanjari Ghosh
+          </h4>
           <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
+            Venue: LT-4 <br/> 
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
+          className="vertical-timeline-element--education"
+          date="Time: 12:00-13:00"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
+          <h3 className="vertical-timeline-element-title">Talk-2</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+           By Dr. Shailendra Kumar Varshney
           </h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
+          <p>Venue: LT-4</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
+          date="Time: 13:00-14:00"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
+          icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
+          <h3 className="vertical-timeline-element-title">Lunch</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Los Angeles, CA
+            
           </h4>
-          <p>User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2006 - 2008"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>User Experience, Visual Design</p>
+          <p></p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="April 2013"
+          date="Time: 14:00-16:00"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Content Marketing for Web, Mobile and Social Media
+          Bhai Lang (Hybrid)
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-          <p>Strategy, Social Media</p>
+          <p>Venue: LT-4</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="November 2012"
+          date="Time: 16:00-17:00"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+          Quiz Round-1 (General Awareness and Science)
+          </h3>
+          <p>Venue: Auditorium</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Time: 19:30-20:30"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Agile Development Scrum Master
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>Creative Direction, User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2002 - 2006"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Bachelor of Science in Interactive Digital Media Visual Imaging
+            Talk-3
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Bachelor Degree
+         By Prof. Mark Dennis
           </h4>
-          <p>Creative Direction, Visual Design</p>
+          <p>Venue: Zoom(Online)</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Time: 21:00-23:00"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+          International Coding Challenge
+          </h3>
+          
+          <p>Venue: Online</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
 

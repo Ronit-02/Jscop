@@ -3,12 +3,24 @@
      background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
      color:"#0b1e38"; 
      font-size: 20px;
-     font-weight: 800;
+     font-weight: 800 !important;
      align-items: center;
      position:relative;
 }
 .vertical-timeline-element-date{
-     color:#00b69d
+     color:#00b69d;
+}
+.section-title{
+     padding-left:12%;
+    
+}
+.vertical-timeline-element-title{
+     font-weight: 650 !important;
+     
+}
+.vertical-timeline-element-subtitle{
+     font-weight: 500 !important;
+
 }
 /*
 .vertical-timeline{
