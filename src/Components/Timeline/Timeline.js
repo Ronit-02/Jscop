@@ -31,7 +31,7 @@ function Timeline() {
                     </h2>
                 </div>
   </header> */}
-  <h2 className="section-title">
+  <h2 id="day-title" className="section-title">
               <br/>
              Day - 1<br />
              
