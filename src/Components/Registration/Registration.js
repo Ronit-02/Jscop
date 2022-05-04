@@ -17,7 +17,15 @@ function Registration() {
 
       </div>
       <div className="blink">
-      <button className='btn-primary'><a href="https://bit.ly/JSCOP4-REG"> AVAIL YOUR PASS </a></button>
+<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_JMNycTXgOsWZEW/view" data-text="Avail your pass now" data-color="#528FF0" data-size="large">
+  <script>
+    (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['_rzp_'];
+      rzp && rzp.init && rzp.init()}})();
+  </script>
+</div>
       </div>
     </div>
   )
