@@ -17,10 +17,9 @@ function Registration() {
 
       </div>
       <div className="blink">
-<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_JMNycTXgOsWZEW/view" data-text="Avail your pass now" data-color="#528FF0" data-size="large">
+<button className='btn-primary'><a href="https://pages.razorpay.com/pl_JMNycTXgOsWZEW/view"> AVAIL YOUR PASS </a></button>
 </div>
       </div>
-    </div>
   )
 }
 
