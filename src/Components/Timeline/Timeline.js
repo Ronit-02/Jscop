@@ -25,15 +25,15 @@ function Timeline() {
 
                             {/*              COMING SOON            */}
         <section type="whats-new" in-view="fade-up" className="in-view">
-            <header className="timiline-header-comming-soon">
+            {/* <header className="timiline-header-comming-soon">
                 <div className="center">
                     <h2 className="timeline-title-comming-soon">
                         Coming <br/> Soon<br />
                     </h2>
                 </div>
-            </header>
+  </header> */}
 
-      {/* <VerticalTimeline>
+      <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2011 - present"
@@ -124,7 +124,7 @@ function Timeline() {
           </h4>
           <p>Creative Direction, Visual Design</p>
         </VerticalTimelineElement>
-      </VerticalTimeline> */}
+      </VerticalTimeline>
 
                             {/*              COMING SOON            */}
 

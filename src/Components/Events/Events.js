@@ -7,6 +7,7 @@ function Events() {
          <header className="section-header">
           <div className="center">
             <h2 className="section-title">
+              <br/>
              Events<br />
              
             </h2>
