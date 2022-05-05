@@ -2,10 +2,10 @@ import React from "react";
 import "./About.css";
 
 // Importing Icons from React
-import {IoRocketOutline} from "react-icons/io5";
-import {FiMic} from "react-icons/fi";
-import {GoBroadcast} from "react-icons/go";
-import {GiAlarmClock} from "react-icons/gi";
+// import {IoRocketOutline} from "react-icons/io5";
+// import {FiMic} from "react-icons/fi";
+// import {GoBroadcast} from "react-icons/go";
+// import {GiAlarmClock} from "react-icons/gi";
 
 
 function About() {
