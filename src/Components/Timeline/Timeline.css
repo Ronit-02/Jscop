@@ -3,14 +3,26 @@
      background-image: url( https://www.manufosela.es/shooting_stars/stars_5.png);
      color:"#0b1e38"; 
      font-size: 20px;
-     font-weight: 800;
+     font-weight: 800 !important;
      align-items: center;
      position:relative;
 }
 .vertical-timeline-element-date{
-     color:#00b69d
+     color:#00b69d;
 }
+#day-title{
+     padding-left:45%;
+    
+}
+.vertical-timeline-element-title{
+     font-weight: 650 !important;
+     
+}
+.vertical-timeline-element-subtitle{
+     font-weight: 500 !important;
 
+}
+/*
 .vertical-timeline{
     
           -webkit-filter: blur(5px);
@@ -22,24 +34,26 @@
           background-color: #ccc;
         
 }
-
-
 section[type=whats-new] .timeline-header-comming-soon {
      -webkit-transform-origin: left top;
      transform-origin: left top;
+     */
    
      /* -webkit-transform: skewY(-11.5deg); */
      /* transform: skewY(-11.5deg);padding-top:50px; */
- }
+     /*
+ }*/
 
+ /*
  section[type=whats-new] .timeline-title-comming-soon {
      font-family: Cedarville Cursive;
     font-weight: 800;
     color: #ffff;
     font-size: 4.5rem;
+    */
     /* line-height: 1.05; */
-    text-shadow: 0 0 42px #2f9d9c;
+   /* text-shadow: 0 0 42px #2f9d9c;
     justify-content: center;
     display: flex;
     justify-content: center;
- }
+ }*/

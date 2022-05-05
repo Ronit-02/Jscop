@@ -7,7 +7,6 @@ img.dots {
     top: 6vh;
     z-index: -1;
 }
-
 @media (max-width: 992px)
 {img.dots {
     width: 34vw;
@@ -19,13 +18,11 @@ img.dots {
     width: 34vw;
     top: 0;
 }}
-
 @media (max-width: 992px)
 {.about__content {
     text-align: center;
     top: -45vh;
 }}
-
 .about__content {
     /* margin-top: 1vh;
     align-items: center; 
@@ -35,7 +32,6 @@ img.dots {
     top: -40vh;
     display: flex;
 }
-
 #about {
     background-repeat: no-repeat;
   background-size:cover;
@@ -78,8 +74,6 @@ img.dots {
     font-family: NeueMontreal-Regular;
     color: white;
 }
-
-
 .MuiTypography-body1 {
     font-size: 1rem;
     font-family: Inter;
@@ -103,7 +97,6 @@ p {
     flex:0.6;
     width:50%
 }
-
 @media (max-width: 1024px)
 {.event-sec-left, .event-sec-right {
     align-items: center;
@@ -239,6 +232,7 @@ p {
     grid-template-columns: repeat(2, 1fr);
     margin: 2% 7%;
     padding: 2%;
+    margin-bottom: 0;
     /* border: 2px solid rgb(255, 255, 255); */
 }
 
@@ -296,7 +290,7 @@ p {
 }
 
 #about-section-div2 img {
-    width: 450px;
+    width: 90%;
     margin: auto;
 }
 
@@ -311,7 +305,7 @@ p {
     }
 
     #about-section-div2 img {
-        width: 350px;
+        width: 90%;
     }
 }
 
@@ -323,7 +317,9 @@ p {
     }
 
     #about-section-div2 img {
-        width: 400px;
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 0;
     }
 }
 

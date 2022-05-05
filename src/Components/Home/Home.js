@@ -31,7 +31,7 @@ function Home() {
             <h4 className="dates">7-8 May 2022</h4>
             <br />
             <button id="pulse" className="mv2">
-             <a href="/register">Register Now</a> 
+             <a href="/register"><b>Register Now</b></a> 
               <span className="tool-tip-text">Registrations starting soon</span>
             </button>
             
@@ -48,12 +48,12 @@ function Home() {
       <About />
 
       <Speakers />
-      {/* <Events/> */}
+      <Events/>
       <Timeline />
 
       <Team />
       <Faq />
-      {/* <SponsorsMain /> */}
+      <SponsorsMain />
       <Footer />
     </>
   );
