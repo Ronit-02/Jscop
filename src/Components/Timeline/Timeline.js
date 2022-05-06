@@ -227,20 +227,6 @@ function Timeline() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="14:30-15:30"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Stand-up / Webathon
-          </h3>
-          {/* <h4 className="vertical-timeline-element-subtitle">
-         By Prof. Mark Dennis
-          </h4> */}
-          <p>Venue: Auditorium</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
           date="16:00-17:00"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<SchoolIcon />}
