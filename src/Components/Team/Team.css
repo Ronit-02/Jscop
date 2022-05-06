@@ -84,12 +84,6 @@
   font-size: 16px;
   margin-top: 8px;
   color: rgb(71, 244, 250);
-  cursor: pointer;
-}
-
-.Team h4:hover {
-  color: #507BFC;
-  text-decoration: underline;
 }
 
 #assign,
@@ -113,6 +107,8 @@
 
 #assign {
   float: left;
+  height: 30px;
+  padding-top: 30px;
 }
 
 #view {
@@ -123,4 +119,16 @@
   margin-right: 8px;
 }
 
+#socials {
+  color: white;
+  padding-top: 10px;
+}
 
+#socials a {
+  margin: auto;
+  margin: 0 7px;
+}
+
+#socials a:hover{
+  color: rgb(71, 244, 250);
+}
